@@ -51,7 +51,7 @@ describe Assignment do
         # @see https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers/raise-error-matcher
         #
         it "should raise an error" do
-
+          
           expect { subject.save! }.to raise_exception
         
         end
